@@ -20,6 +20,7 @@ python manage.py runserver
 | Method | Path | Description |
 |---|---|---|
 | GET | `/api/orders/<id>/` | Returns an order. Login required, owner only. |
+| POST | `/api/orders/<id>/coupon/` | Applies a coupon code to an order. Body: `{"code": "WELCOME10"}` |
 
 ## Session material
 
